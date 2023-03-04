@@ -1,1 +1,261 @@
 
+ body{
+    margin: 0px;
+    background-color: black;
+    
+ }
+
+#app{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .home-two{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background-color: rgb(19, 19, 19);
+    border-bottom: 1px solid rgb(175, 96, 0);
+    padding-bottom: 5rem;
+  
+   
+  
+  }
+  .home-tree{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(19, 19, 19);
+  
+  
+  }
+  
+  
+  
+  
+  #metu-div-style{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    border-top: 4px solid rgb(179, 179, 179);
+    border-bottom: 4px solid rgb(179, 179, 179);
+    margin-bottom: 3rem !important;
+  
+  }
+  
+  /* ana hattı sonu */
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .tree-part-home{
+  
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    margin-bottom: 5rem;
+    color: rgb(255, 255, 255);
+  }
+  
+  .tree-part-home h4 {
+    margin-top: 6rem;
+    font-size: 2.7rem;
+    color: white; 
+    margin-bottom: 3rem; 
+    text-transform: capitalize;
+  }
+  
+  .tree-part-home p {
+    text-transform: capitalize;
+    margin: 1.2rem;
+    font-size: 1rem;
+  
+  }
+  .open-day{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 0.8rem;
+    height: 100%;
+  }
+  
+  .open-day-group{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: auto;
+    color: rgb(196, 196, 196);
+    font-size: 1rem;
+  }
+  
+  
+  ul{
+    list-style-type:none;
+    display: flex;
+    flex-direction: column;
+    font-weight: 900;
+    letter-spacing: 1px;
+    justify-content: flex-start;
+  
+  }
+   hr{
+    display: flex;
+     width: 2%;
+     margin-bottom: 1rem;
+  }
+  
+  /* gövde bölümünün tasarlanması  */
+  
+  
+  /* home-two-group */
+  
+  .home-two-group{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 1rem;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  
+  
+  
+  /* show 1  */
+  
+  #menu{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  #menu h2{
+    display: flex;
+    font-size:2rem;
+    width: 40%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    font-weight: 900;
+    color: black;
+    background-color: aliceblue;
+    border-radius: 1rem;
+  }
+  #menu div{
+    display: flex;
+    width: 70%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    background-color: rgb(19, 19, 19);
+    color: aliceblue;
+    display: flex;
+    border-radius: 1rem;
+    flex-direction: column;
+  }
+  
+  
+  #menu p{
+    display: flex;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+  }
+  
+  
+  
+  /* adress iletişim  */
+  #adres-location{
+    width:100%;
+    height: 60%;
+    border-radius: 1rem;
+  }
+  
+  
+  
+  .iletisim-adress-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+  .iletisim-head{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 01rem;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+  
+  
+  }
+  
+  .iletisim-body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 1.5rem;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+  
+  
+  
+  }
+  
+  .iletisim-end{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    font-size: 1rem;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+  
+  
+  
+  }
+  
+  .iletisim-adress-part h3{
+    font-size: 2rem;
+  }
+  
+  
+  
+  #menu-img-part{
+  display: flex;
+  width:50%;
+  height: auto;
+  border: 1px solid gray;
+  border-radius: 2rem;
+  margin: 1px;
+  }
